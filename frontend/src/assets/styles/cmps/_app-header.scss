@@ -1,0 +1,53 @@
+.app-header {
+    height: 5vh;
+    position: fixed;
+    z-index: 4;
+    width: 100%;
+
+
+    .nav-header {
+        display: flex;
+        background: $bgc-1;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid $prm-clr3;
+        padding: 10px;
+
+
+
+
+
+        h1 {
+            margin: auto 0;
+            color: $prm-clr1;
+            font-family: poppins-Medium;
+        }
+
+
+        .user-info {
+            margin: auto 10px;
+            // background-color: $clr2;
+            // padding: 2px 8px;
+            padding-right: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: end;
+            color: $prm-clr1;
+
+
+            img {
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
+                object-fit: cover;
+            }
+        }
+
+        .user-info .btn-link {
+            color: $prm-clr1;
+        }
+
+
+    }
+}

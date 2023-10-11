@@ -1,0 +1,30 @@
+  .search-guest-container {
+    width: 100%;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    // background-color: pink;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+
+
+
+    .search-guest {
+      height: rem(100px);
+      width: 70%;
+      border-radius: rem(32px);
+      border: 1px solid $prm-clr3;
+      padding: rem(16px);
+      font-size: 1.5rem;
+
+      color: $clr-font-sec;
+    }
+
+    .search-guest-button {
+      background-color: transparent;
+      color: $clr-font-sec;
+      font-size: 2rem;
+      margin-right: 1rem;
+    }
+  }

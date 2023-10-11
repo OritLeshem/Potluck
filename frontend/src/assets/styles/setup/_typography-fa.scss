@@ -1,0 +1,144 @@
+@font-face {
+    font-family: fa-regular;
+    src: url(../fonts/font-awesome/fa-regular-400.ttf);
+
+}
+
+.fa-regular:after {
+    font-family: fa-regular;
+}
+
+.fa-regular.heart:after {
+    content: "\f004";
+}
+
+.fa-regular.envelope:after {
+    content: "\f0e0";
+}
+
+.fa-regular.bell:after {
+    content: "\f0f3";
+}
+
+.fa-regular.pen-to-sgure:after {
+    content: "\f044";
+}
+
+.fa-regular.trash-can:after {
+    content: "\f2ed";
+}
+
+.fa-regular.circle-check:after {
+    content: "\f058";
+}
+
+.fa-regular.file:after {
+    content: "\f15b";
+}
+
+.fa-regular.plus:after {
+    content: "\2b";
+}
+
+.fa-regular.comment:after {
+    content: "\f075";
+}
+
+
+@font-face {
+    font-family: fa-brands;
+    src: url(../fonts/font-awesome/fa-brands-400.ttf);
+}
+
+.fa-brands:after {
+    font-family: fa-brands;
+}
+
+.fa-brands.twitter:after {
+    content: "\f099";
+}
+
+.fa-brands.facebook:after {
+    content: "\f09a";
+}
+
+.fa-brands.linkedin:after {
+    content: "\f08c";
+}
+
+.fa-brands.pinterest:after {
+    content: "\f0d2";
+}
+
+.fa-brands.instagram:after {
+    content: "\f16d";
+}
+
+@font-face {
+    font-family: fa-solid;
+    src: url(../fonts/font-awesome/fa-solid-900.ttf);
+}
+
+.fa-solid:after {
+    font-family: fa-solid;
+}
+
+.fa-solid.chevron-left:after {
+    content: "\f053";
+}
+
+.fa-solid.chevron-right:after {
+    content: "\f054";
+}
+
+.fa-solid.xmark:after {
+    content: "\f00d";
+}
+
+.fa-solid.sort-up:after {
+    content: "\f0de";
+}
+
+.fa-solid.sort-down:after {
+    content: "\f0dd";
+}
+
+.fa-solid.arrow-rigth:after {
+    content: "\f061";
+}
+
+.fa-solid.arrow-left:after {
+    content: "\f060";
+}
+
+.fa-solid.heart:after {
+    content: "\f004";
+}
+
+.fa-solid.bars:after {
+    content: "\f0c9";
+}
+
+.fa-solid.play:after {
+    content: "\f04b";
+}
+
+.fa-solid.pause:after {
+    content: "\f04c";
+}
+
+.fa-solid.pen-to-square:after {
+    content: "\f044";
+}
+
+.fa-solid.users:after {
+    content: "\f0c0";
+}
+
+.fa-solid.list:after {
+    content: "\f03a";
+}
+
+.fa-solid.magnifying-glass:after {
+    content: "\f002";
+}

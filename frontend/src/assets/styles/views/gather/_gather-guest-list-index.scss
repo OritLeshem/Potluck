@@ -1,0 +1,93 @@
+.gather-guest-list-index {
+  margin-top: 80px;
+  margin-bottom: 15vh;
+
+
+  .search-users-img-container {
+    display: flex;
+    margin-bottom: 3rem;
+
+    .user-info {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      gap: 0.1rem;
+      margin-left: 1.2rem;
+
+      span {
+        color: $clr-font-sec;
+        font-size: 0.7rem;
+        max-width: 70px;
+      }
+    }
+
+    .guest-add-button,
+    .user-img {
+      width: rem(70px);
+      height: rem(70px);
+      border-radius: 50%;
+
+    }
+
+    .guest-add-button {
+      margin-right: 0.5rem;
+      background: linear-gradient(180deg, #FF6079 0%, rgba(255, 96, 121, 0.63) 100%);
+      font-size: 2rem;
+    }
+
+    .user-img-button {
+      background-color: transparent;
+      margin: 0;
+      padding: 0;
+
+
+
+      .user-img {
+        border: 3px solid $prm-clr1;
+        padding: 5px;
+        object-fit: cover;
+      }
+    }
+  }
+
+
+
+  .guest-approved-li {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+    margin-left: 1.3rem;
+    font-size: 16px;
+    color: $clr-font-sec;
+    width: 70%;
+
+    justify-content: space-between;
+
+    &:hover {
+      background-color: rgb(233, 237, 247, 0.3);
+      border-radius: 24px;
+    }
+
+    .guest-approved-info {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 10px;
+    }
+  }
+
+  .button-remove-guest {
+    background-color: transparent;
+    color: $clr-font-sec
+  }
+
+  .guest-img {
+    width: rem(40px);
+    height: rem(40px);
+    object-fit: cover;
+    border-radius: 50%;
+  }
+
+}

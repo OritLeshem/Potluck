@@ -1,0 +1,30 @@
+button {
+    border: 0;
+    background-color: $clr-font;
+    color: whitesmoke;
+    padding: 10px;
+    border-radius: 5px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+form>* {
+
+    background-color: $bgc-1;
+}
+
+input {
+    outline: none;
+}
+
+.btn-link {
+    border: 0;
+    background-color: transparent;
+    text-decoration: underline;
+    transition: .5s;
+}
+
+.btn-link:hover {
+    background-color: $prm-clr1;
+    transform: scale(1.1);
+}

@@ -1,0 +1,72 @@
+.gather-item-list-index {
+  margin-top: 80px;
+
+  h3 {
+    margin-bottom: 30px;
+  }
+
+  table {
+    border-collapse: collapse;
+    width: 95%;
+    margin: auto;
+
+    // border: 1px solid #E9EDF7;
+    th,
+    td {
+      border: 1px solid #E9EDF7;
+    }
+
+    td {
+      text-align: center;
+      padding: 10px;
+      width: 20%;
+    }
+  }
+
+  .edit-input {
+    border: none;
+    outline: none;
+    align-items: center;
+    margin: auto;
+    background-color: $prm-clr3;
+  }
+
+  input[type="checkbox"] {
+    transform: scale(0.5);
+    /* Increase the scale factor as needed */
+  }
+
+  .button-list {
+    background-color: transparent;
+    color: $clr-font-sec;
+
+  }
+
+  .add-item {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: $prm-clr3;
+    margin: auto;
+  }
+
+  .icon,
+  .icon:before,
+  .icon:after,
+  .icon i,
+  .icon i:before,
+  .icon i:after {
+    transition: all 0.4s ease;
+  }
+
+  .item-owner-img {
+    width: 32px;
+    height: 32px;
+    object-fit: cover;
+    margin: auto;
+    border-radius: 50%;
+    margin-top: 0.5rem;
+
+  }
+}

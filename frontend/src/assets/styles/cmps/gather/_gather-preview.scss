@@ -1,0 +1,38 @@
+.gather-preview {
+  border: 1px solid $prm-clr3;
+  margin-bottom: 10px;
+  padding: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $clr-font-sec;
+
+  h2 {
+    color: $clr-font;
+  }
+
+  .gather-btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    .button-preview {
+      color: $clr-font;
+      background-color: $prm-clr11;
+      width: 30px;
+      height: 30px;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &:hover {
+        color: $prm-clr11;
+        background-color: $clr-font;
+      }
+
+    }
+  }
+}
